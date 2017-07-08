@@ -147,7 +147,7 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 BOARD_USES_QCNE := true
 
 # Crypto
-TARGET_HW_DISK_ENCRYPTION := true
+TARGET_HW_DISK_ENCRYPTION := false
 
 # Display
 BOARD_USES_ADRENO := true

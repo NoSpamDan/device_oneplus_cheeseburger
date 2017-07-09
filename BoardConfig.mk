@@ -213,6 +213,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RIL_VARIANT := caf
 PROTOBUF_SUPPORTED := true
 
+# Ship with root?
+WITH_ROOT := false
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy

@@ -25,9 +25,9 @@ VENDOR=oneplus
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-GZOSP_ROOT="$MY_DIR"/../../..
+SLIM_ROOT="$MY_DIR"/../../..
 
-HELPER="$GZOSP_ROOT"/vendor/gzosp/build/tools/extract_utils.sh
+HELPER="$SLIM_ROOT"/vendor/slim/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -57,7 +57,7 @@ if [ -z "$SRC" ]; then
 fi
 
 # Initialize the helper
-setup_vendor "$DEVICE" "$VENDOR" "$GZOSP_ROOT" false "$CLEAN_VENDOR"
+setup_vendor "$DEVICE" "$VENDOR" "$SLIM_ROOT" false "$CLEAN_VENDOR"
 
 extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
 extract "$MY_DIR"/proprietary-files-qc-perf.txt "$SRC" "$SECTION"

@@ -448,12 +448,12 @@
     <!-- True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
 
-    <!-- doze always on -->
-    <bool name="config_enableDozeAlwaysOn">false</bool>
+    <!-- doze always on
+    <bool name="config_enableDozeAlwaysOn">false</bool> -->
 
     <!-- Default value for proximity check on screen wake
          NOTE ! - Enable for devices that have a fast response
-         proximity sensor (ideally < 300ms) -->
+         proximity sensor (ideally < 300ms)
     <bool name="config_proximityCheckOnWake">true</bool>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool> -->
 </resources>

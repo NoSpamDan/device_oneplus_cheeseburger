@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/slim.mk
+    $(LOCAL_DIR)/candy_cheeseburger.mk

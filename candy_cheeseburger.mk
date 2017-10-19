@@ -21,10 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from cheeseburger device
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Candy stuff.
+$(call inherit-product, vendor/candy/config/common.mk)
+$(call inherit-product, vendor/candy/config/gsm.mk)
 
-PRODUCT_NAME := slim_cheeseburger
+PRODUCT_NAME := candy_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

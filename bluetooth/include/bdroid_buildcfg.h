@@ -23,8 +23,6 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#include <cutils/properties.h>
-#include <string.h>
 
 #define BTM_DEF_LOCAL_NAME "OnePlus 5"
 #define BLUETOOTH_QTI_SW TRUE
@@ -34,5 +32,4 @@
 #define BLE_VND_INCLUDED   TRUE
 // skips conn update at conn completion
 #define BT_CLEAN_TURN_ON_DISABLED 1
-#undef PROPERTY_VALUE_MAX
 #endif

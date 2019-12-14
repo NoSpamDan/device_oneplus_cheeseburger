@@ -15,7 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/validus_cheeseburger.mk
+    $(LOCAL_DIR)/candy_cheeseburger.mk
 
 COMMON_LUNCH_CHOICES := \
-    validus_cheeseburger-userdebug
+    candy_cheeseburger-user \
+    candy_cheeseburger-userdebug \
+    candy_cheeseburger-eng

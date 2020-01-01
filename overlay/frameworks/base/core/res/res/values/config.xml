@@ -37,7 +37,7 @@
     <integer name="config_buttonBrightnessSettingDefault">255</integer>
     <bool name="config_deviceHasVariableButtonBrightness">false</bool>
 
-    <!-- Button brightness -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!-- Enable system navigation keys. -->
+    <bool name="config_supportSystemNavigationKeys">true</bool>
 
 </resources>
